@@ -7,8 +7,13 @@ edition = "2021"
 
 [dependencies]
 actix-web = "^4"
-uuid ={ version = "^0.8", features = ["v4"]}
-serde ={ version = "^1", features = ["derive"]}
+uuid = { version = "^0.8", features = ["v4"] }
+serde = { version = "^1", features = ["derive"] }
 mysql = "^24.0.0"
-azure_core = "^0.17.0"
-native-tls = "0.2.11"
+# azure_core = "^0.17.0"
+# native-tls = "0.2.11"
+env_logger = "0.9.0"
+log = "^0.4"
+strum_macros = "^0.24"
+strum = { version = "^0.24", features = ["derive"] }
+derive_more = "^0.99"
