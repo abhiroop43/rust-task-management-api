@@ -1,0 +1,14 @@
+[package]
+name = "task_management_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "^4"
+uuid ={ version = "^0.8", features = ["v4"]}
+serde ={ version = "^1", features = ["derive"]}
+mysql = "^24.0.0"
+azure_core = "^0.17.0"
+native-tls = "0.2.11"
